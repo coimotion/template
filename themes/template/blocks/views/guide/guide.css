@@ -1,0 +1,79 @@
+.content {
+	margin-top: 3em;
+	margin-bottom: 3em;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.inner {
+	margin: 2em auto;
+	padding: 5px 50px 15px;
+	background: #ECEEEF;
+	color: #888;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+}
+h1 {
+	margin: 1em auto;
+	text-align: center;	
+	height: 22px;	
+}
+h1 span {
+	font-size: 1em;	
+	font-weight: bolder;
+	padding: 0 20px;
+	color: #888;
+	background: transparent;	
+}
+p {
+	padding: 2px 1em 1em;
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 1.6em;
+	text-indent: 0.6em;
+	text-align: left;
+	word-wrap: break-word; 
+}
+p + p {
+	margin-top: -10px;
+}
+	
+/* =======================================
+   Mobile STYLE
+   ======================================= */
+.mobile.content {
+	margin-top: 1em;
+}
+.mobile h1 {
+	margin: 2em auto;
+	height: 42px;
+}
+.mobile span {
+	font-size: 2em;
+}
+.mobile p {
+	font-size: 3.2em;
+	line-height: 1.4em;	
+}
+
+/* =======================================
+   SET DIFFERENT SCREEN
+   ======================================= */
+
+@media screen and (max-width: 1087px){
+  .content { 
+    margin-top: 80px !important; 
+    margin-bottom: 0px !important;
+  } 
+}
+@media screen and (max-width: 820px){
+  .Guide .content { 
+    margin-top: 200px !important; 
+  } 
+  .Content .content { 
+    margin-top: 50px !important; 
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"/banner"    : "index",
+	"/content"   : "index",
+	"/doc"       : "index",
+	"/docList" 	 : "index",
+	"/form" 	 : "index",
+	"/guide"     : "index",
+	"/news"      : "index",
+	"/manage"    : "index"
+}

@@ -1,0 +1,202 @@
+.wrapper {
+  margin: 50px 0px 0px;
+  padding: 50px 0 ;
+  background: #f5f5f5;
+}
+.maincontent {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+.article {  
+  border-radius: 20px;
+  margin: 20px 260px 20px 0px;  
+  padding-bottom: 8em;
+  padding-top: 2em;
+  min-height: 800px; 
+  height: auto;
+  background: #f5f5f5;  
+  color: #4a4a4a;
+  font-weight: normal;
+}
+.title {
+  color: #2EA0D1;  
+  font-size: 1.2em;
+  line-height: 2em; 
+  padding-bottom: 1em;        
+}       
+.title h1 {
+  font-weight: bolder;  
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+.title h3 {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+.sub {
+  margin: 0em 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: right; 
+} 
+.strTime {
+  font-size: 1em;
+  color: #2EA0D1;;
+  line-height: 2em;
+  margin-left: 1em;
+}
+.section p {     
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1.5em;
+  color: #666;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  word-wrap: break-word;    
+}
+.section h2 {        
+  color: #2EA0D1;
+}
+.section h3 {
+  font-weight: 600;
+  color: #2EA0D1;
+  line-height: 2em;              
+  margin-top: 1em;  
+}
+.section h4 {
+  font-weight: bold;
+}        
+p + h3, p + h4,
+pre + p, pre + h3, pre + h4,
+ol + h4, ul + h4 {
+  margin-top: 1.8em;
+}
+pre {
+  margin: 0px;
+  padding: 5px;
+  background: #fff;
+  width: 100%;
+  overflow: auto; 
+  border: none;
+}      
+pre code {
+  width: 100%;
+  font-size: 1.2em;
+  color: #666;
+  border-radius: 2px;
+  word-wrap: break-word;  
+  word-break: break-all;
+}
+code {
+  color: #45ABAB;
+  background: #fff;
+}        
+ul li, ol li {
+  font-size: 1.5em;
+  line-height: 1.5em;       
+  color: #666;
+}
+ul li a, ol li a {
+  color: #2EA0D1;
+}
+ul li a:hover, 
+ol li a:hover {
+  color: #3067A5;
+  text-decoration: none;
+}  
+.gotop {
+  display: none;
+  position: fixed;
+  bottom: 230px;
+  right: 150px;
+  font-size: 3em;
+  color: rgba(255,255,255,1);   
+  background: rgba(200,200,200,0.5);
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding-top: 2px;
+}
+.gotop:hover {
+  color: rgba(255,255,255,1);
+  background: rgba(200,200,200, 0.5);
+}
+.viewside {
+  width: 230px;  
+  min-height: 600px;    
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  overflow: visible;
+  top: 60px;
+  right: 0px;   
+  transition: margin-left .3s ease-in;           
+}
+
+
+/* =======================================
+   Mobile STYLE
+   ======================================= */
+   
+.mobile .maincontent {
+  width: 100% !important;
+}
+.mobile .article {
+  margin-right: 50px;
+  padding: 100px 40px 8em 80px;
+  font-weight: normal;
+}
+.mobile h1 { 
+  font-size: 4.5em; 
+  line-height: 1.2em;  
+}
+.mobile h3 {
+  font-size: 3.6em;
+  line-height: 1.2em;  
+}
+.mobile h4 {
+  font-size: 3.4em;
+}
+.mobile p {
+  font-size: 3.2em;
+  line-height: 1.2em;
+}
+.mobile ol {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-padding-start: 0px;
+}
+.mobile ul li, .mobile ol li {
+  font-size: 3.2em;
+  line-height: 1.2em;  
+}
+.mobile pre {
+  width: 100%;
+  overflow: auto;     
+}
+.mobile pre code {
+  font-size: 3em;
+  word-break: break-all;
+}
+.mobile .strTime {
+  font-size: 3em;  
+}
+.mobile .gotop {
+  right: 70px;
+  bottom: 900px;
+  width: 85px;
+  height: 85px;
+  font-size: 5em;
+}
+
+/* =======================================
+   SET DIFFERENT SCREEN
+   ======================================= */
+
+@media screen and (max-width: 1024px){  
+  .maincontent {
+    width: 90% !important;
+  }
+}

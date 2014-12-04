@@ -1,0 +1,28 @@
+{
+    "127.0.0.1": {
+        "title": "Template",
+        "validFrom": "",
+        "validTo": "",
+        "locale": "zh",
+        "home": "/manage",
+        "theme": "template",
+        "appKeys": {
+            "wcoim": "",
+            "blogDemo": "ce51fbb8-1df6-0442-e187-3e5e0a8785b8"
+        },
+        "caCode": "blogDemo"
+    },
+    "192.168.1.5": {
+        "title": "Template",
+        "validFrom": "",
+        "validTo": "",
+        "locale": "zh",
+        "home": "/manage",
+        "theme": "template",
+        "appKeys": {
+            "wcoim": "",
+            "blogDemo": "ce51fbb8-1df6-0442-e187-3e5e0a8785b8"
+        },
+        "caCode": "blogDemo"
+    }
+}

@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	padding: 0;	
+	width: 100%;
+	font-family: "微軟正黑體", Arial, "Adobe 黑体 Std R", "Adobe 繁黑體 Std B", sans-serif;
+	color: #111;
+	-webkit-font-smoothing: antialiased; 
+	overflow-x: hidden;
+}
+#pgHead, #pgFooter, #pgContainer {
+	margin: 0;
+	padding: 0;	
+	width: 100%;
+	overflow-x: hidden;
+}
+a, a:hover, a:link, a:active {
+	text-decoration: none;
+}
+a:focus {
+	outline: 0;
+}

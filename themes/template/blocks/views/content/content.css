@@ -1,0 +1,76 @@
+.content {
+	margin-top: 3em;
+	margin-bottom: 3em;
+	text-align: center;
+}
+h1 {
+	margin: 2em auto;
+	text-align: center;	
+	height: 22px;
+	border-bottom: 4px solid #eceeef;	
+}
+span {
+	font-size: 1em;	
+	font-weight: bolder;
+	padding: 0 20px;
+	color: #2EA0D1;	
+	background: #fff;	
+}
+.entry {
+	text-align: center;
+	margin-top: 40px; 
+	float: left;
+}
+.entry i {
+	display: block;
+	margin: 0 auto;
+	font-size: 6.5em;
+	color: #333;
+}
+.entry h2 {	
+	font-size: 1.8em;
+	font-weight: 600;
+	color: #2EA0D1;
+	line-height: 2em;
+	margin-right:-15px;
+	margin-left: -15px;
+	padding-top: 10px;	
+}
+.entry p {
+	font-size: 1.5em;	
+	line-height: 1.6em;
+	margin: 0 auto 3em;
+	padding:5px;
+	color: #000;
+}
+
+
+/* =======================================
+   Mobile STYLE
+   ======================================= */
+
+.mobile h1 {
+	margin: 2em auto;
+	height: 42px;	
+}
+.mobile span {
+	font-size: 2em;
+}
+.mobile .setHeight {
+	margin-top: 2em;
+	height: 450px;
+}
+.mobile i {
+	margin-top: 0px;
+	font-size: 13em;
+}
+.mobile h2 {
+	font-size: 4em;
+	line-height: 2em;
+}
+.mobile p {
+	font-size: 3.2em;
+	line-height: 1.4em;
+}
+
+

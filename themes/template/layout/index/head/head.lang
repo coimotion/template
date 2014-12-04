@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phrases>
+	<ph id="home">
+		<en>About Us</en>
+		<zh>關於我們</zh>
+	</ph>	
+	<ph id="news">
+		<en>News</en>
+		<zh>最新消息</zh>
+	</ph>
+	<ph id="document">
+		<en>Documentation</en>
+		<zh>說明文件</zh>
+	</ph>
+	<ph id="language">
+		<en>English</en>
+		<zh>中文(繁體)</zh>
+	</ph>
+	<ph id="chinese">
+		<en>中文(繁體)</en>
+		<zh>中文(繁體)</zh>
+	</ph>
+	<ph id="english">
+		<en>English</en>
+		<zh>English</zh>
+	</ph>
+</phrases>

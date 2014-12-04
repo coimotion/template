@@ -1,0 +1,203 @@
+#header {
+  padding: 0 10px;
+  margin: 0;   
+  width: 100%;
+  height: 100px;
+  background: rgba(255, 255, 255, 1);  
+} 
+/*.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+}*/
+.logo {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: block;
+}
+.icon-bar {
+  background: #999;
+}
+/* #menu */ 
+.collapse {
+  display: block;
+}
+ul.navbar-nav.navbar-right:last-child {
+  margin-right: 3em;
+  margin-top: 15px;
+} 
+li.bu {
+  float: left;
+  padding: 0px;
+  margin: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #111;
+  font-size: 1.2em;
+  display: inline-block;  
+  position: relative;
+}
+li.bu.active,
+li.bu:focus,
+li.bu:hover,
+li.bu:active {
+  color: #00adee;
+  background: transparent !important;
+}
+li.dropdown:hover a {
+  background: transparent !important;
+  color: #26a3ea;
+}
+.dropdown-toggle {
+  line-height: 20px !important;
+  display: block;
+  text-align: center; 
+  position: relative; 
+  color: #111;
+  background: transparent !important;
+  border: none;
+  padding: 0px;
+  margin: -26px 0 0;
+}
+/*language*/
+ul.dropdown-menu {
+  width: 120px;
+  min-width: 120px;
+  max-width: 120px;        
+  background: #00adee;
+  border: none;
+  box-shadow: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+  left: 0px;
+  z-index: 1000;
+}       
+ul.dropdown-menu a:active, 
+ul.dropdown-menu a:hover, 
+ul.dropdown-menu a:focus, 
+ul.dropdown-menu a:visited, 
+ul.dropdown-menu a.active {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+ul.dropdown-menu li a {
+  padding: 5px 15px;
+  line-height: 24px;
+  font-size: 16px;
+  color: #fff !important;
+}
+
+/**/
+/*.navbar-nav > .open,
+.navbar-nav > .open  > a, 
+.navbar-nav > .open  > a:hover,
+.navbar-nav > .open  > a:focus,
+.navbar-nav > .open  > a:active,
+.navbar-nav > .open  > a:visited {
+  background: transparent;
+}*/
+
+/* =======================================
+   Mobile STYLE
+   ======================================= */
+
+.mobile .container {
+  width: 100% !important;
+}
+.mobile .navbar-header {
+  float: none !important;
+}
+.mobile .logo {
+  margin-left: 30px !important;
+}
+.mobile .icon-bar {
+  width: 70px!important;
+  height: 4px!important;
+  line-height: 60px!important;
+  margin-top: 10px!important;
+}
+.mobile .collapse {
+  background: rgba(255, 255, 255, 1) !important;
+  margin-left: auto !important;  
+  margin-right: auto !important; 
+  width: 100% !important; 
+} 
+.mobile .navbar-right {
+  float: left !important;
+}
+.mobile ul.navbar-nav.navbar-right:last-child {
+   margin-right: -20px !important;
+}
+.mobile .navbar-toggle {
+  margin-top: 20px !important;
+}  
+.mobile li {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important; 
+  margin-left: 30px !important;
+  margin-right: 20px !important;
+  line-height: 50px !important;
+  font-size: 42px !important;   
+}
+.mobile .dropdown-toggle {
+  margin-top: -16px !important;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+  padding-top: 0px !important;
+  padding-bottom: 20px !important; 
+  line-height: 18px !important;
+  font-size: 42px !important;
+  width: 250px !important;   
+}
+.mobile .dropdown-menu {  
+  width: 100% !important;
+  min-width: 100% !important;
+  max-height: 100% !important; 
+  padding: 15px 10px 150px !important;  
+  background: #00adee !important; 
+  right: 0px !important; 
+}
+.mobile .dropdown-menu li a {
+  font-size: 42px !important;
+  line-height: 22px !important;
+  color: #fff !important;
+  display: block !important;
+  margin: 0 -40px !important;
+  
+}
+.mobile .active:active, 
+.mobile .active:hover, 
+.mobile .active:focus, 
+.mobile .active:visited, 
+.mobile .active.active {
+  border-bottom-width: 6px !important; 
+}
+.mobile .arrow:active, 
+.mobile .arrow:hover, 
+.mobile .arrow:focus, 
+.mobile .arrow:visited, 
+.mobile .arrow.active {
+  border-width: 12px !important;    
+  top: 75% !important;
+}
+
+
+/* =======================================
+   SET DIFFERENT SCREEN
+   ======================================= */
+
+@media screen and (max-width: 768px) {  
+  ul.navbar-nav.navbar-right:last-child {
+     margin-right: -20px !important;
+  }
+  .dropdown-toggle {
+     margin-top: -16px !important;
+  } 
+  .dropdown-menu {     
+     position: absolute !important;  
+     background: #00adee !important;  
+  }
+}
+

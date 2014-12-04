@@ -1,0 +1,60 @@
+.footer {  
+  background: #fff;
+  border-top: 2px solid #ddd !important;
+  padding-top: 30px;
+  padding-bottom: 30px; 
+  margin-bottom: 0; 
+  color: #ccc;
+}
+.link {
+  margin: 2em 0 3em !important;
+  text-align: center;
+}
+.link a {
+  color: #818181;
+  font-size: 1.2em;
+  line-height: 2.2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+.link a:last-child {
+  padding-right: 0;
+}
+.link a:hover {
+  color: #2EA0D1;
+}
+.copyright {  
+  font-size: 1em;  
+  text-align: center;
+}
+/* =======================================
+   Mobile STYLE
+   ======================================= */
+
+.mobile.footer {
+  border-top-width: 4px !important;
+  margin-bottom: 20px !important;	
+}
+.mobile .link {
+  width: 50% !important;
+  overflow: visible !important;
+  margin: 3em auto 5em !important;
+  text-align: left;
+}
+.mobile .link a {
+  display: block;
+  font-size: 3.3em !important;
+  line-height: 2.5em !important;
+  margin-right: -10%!important;
+}
+.mobile .link a i {
+  width: 50px;
+  text-align: center!important;
+}
+.mobile .link a span {  
+  text-align: left!important;
+}
+.mobile .copyright {  
+  font-size: 2em !important;
+  line-height: 2.5em !important;  
+}

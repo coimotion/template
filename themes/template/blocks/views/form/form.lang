@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phrases>		
+	<ph id="title">
+		<en>Contact Us</en>
+		<zh>連絡我們</zh>
+	</ph>
+	<ph id="name">
+		<en>Name</en>
+		<zh>姓名</zh>
+	</ph>
+	<ph id="mail">
+		<en>E-mail</en>
+		<zh>電郵</zh>
+	</ph>
+	<ph id="sub">
+		<en>Title</en>
+		<zh>主旨</zh>
+	</ph>
+	<ph id="massage">
+		<en>Massage</en>
+		<zh>內容</zh>
+	</ph>
+</phrases>

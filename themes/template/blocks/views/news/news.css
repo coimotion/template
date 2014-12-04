@@ -1,0 +1,100 @@
+.wrapper {
+  margin: 100px 0px 100px;
+  padding: 50px;
+}
+.maincontent {
+  width:1280px;
+  margin: 0 auto;
+  position: relative;
+}
+.section {   
+  border-top: 2px solid #d8dddf;   
+  padding: 1em 2em;
+}
+.section img {
+  margin: 20px;
+  width: 260px;
+  height: auto;
+  float: left;
+}
+.inner {
+  margin: 20px;
+}
+.inner h4 a {
+  font-size: 1.2em;
+  line-height: 24px;
+  font-weight: bold;
+  color: #2EA0D1;
+}
+.inner h4 a:hover {
+  color: #3067A5;
+  text-decoration: none;
+}
+.inner p {
+  font-size: 1.5em;
+  color: #666;
+  line-height: 24px;
+  word-wrap: break-word!important; 	
+}
+.gotop {
+  display: none;
+  position: fixed;
+  bottom: 230px;
+  right: 150px;
+  font-size: 3em !important;
+  color: rgba(255,255,255,1);   
+  background: rgba(200,200,200,0.5);
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding-top: 2px;
+}
+.gotop:hover {
+  color: rgba(255,255,255,1);
+  background: rgba(200,200,200, 0.5);
+}
+
+
+/* =======================================
+   Mobile STYLE
+   ======================================= */
+
+.mobile .maincontent {
+  width: 100%;
+}
+.mobile .section {
+  margin-bottom: 4em
+}
+.mobile img {
+  float: none;
+  display: block;
+  width: 80%;
+  margin: 30px auto 60px;
+}
+.mobile h4 {
+  font-size: 3.5em;
+  width: 100%;
+}
+.mobile p {
+  font-size: 3.2em;
+  line-height: 1.2em;
+  width: 100%;
+}
+.mobile .gotop {
+  right: 70px;
+  bottom: 850px;
+  width: 85px;
+  height: 85px;
+  font-size: 5em !important;
+}
+
+/* =======================================
+   SET DIFFERENT SCREEN
+   ======================================= */
+
+@media screen and (max-width: 1024px){  
+  .maincontent {
+    width: 100% !important;
+  }
+}
